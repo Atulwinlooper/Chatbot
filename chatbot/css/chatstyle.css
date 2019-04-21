@@ -1,0 +1,56 @@
+body
+{
+	background-image: linear-gradient(110deg, #42d451 0%, #1249eb 100%);
+}
+.chatbox{
+	border-radius: 5px;
+	border-color: #000;
+	position: center;
+	margin-top: 200px;
+	margin-left: 450px;
+	margin-right: 400px;
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 5px 5px;
+    height: 40vw;
+    overflow-y: scroll;
+}
+.botimg{
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+
+.bot_name{
+	margin-top: 30px;
+	color: orange;
+	display: block;
+}
+.bot_message{
+	margin-top: 5px;
+	margin-left: 30px;
+	color: grey;
+	display: block;
+}
+.userimg{
+	float: left;
+	margin-left: -10px;
+	height: 30px;
+	width: 30px;
+}
+
+.user_name{
+	margin-top: 20px;
+	margin-left: 200px;
+	color: red;
+	display: block;
+}
+.user_message{
+	margin-top: 5px;
+	margin-left: 200px;
+	position: relative;
+	color: black;
+	display: block;
+	overflow-wrap: break-word;
+}
+
